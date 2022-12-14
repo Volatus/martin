@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [main, v0.6]
   release:
-    branches: [main, v0.6]
+    types: [published]
   workflow_dispatch:
 
 jobs:
